@@ -1,0 +1,49 @@
+@charset "UTF-8";
+/* 
+    cores:
+    verde: #49a09d
+    lilas: #5f2c82
+*/
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body,html {
+    height: 100vh;
+    width: 100vw;
+    background-color: #5f2c82;
+}
+main {
+    position: relative;
+
+    height: 100vh;
+    width: 100vw;
+}
+#login {
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.521);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    overflow: hidden;
+    border-radius: 20px;
+    background-color: white;
+    width: 250px;
+    height: 500px;
+
+}
+#imagem {
+    display: block;
+    height: 200px;
+    background: #5f2c82 url(../imagens/login.jpg ) no-repeat ;
+    background-size: cover;
+    background-position: center left;
+}
+#formulario {
+    display: block;
+    padding: 10px;
+
+}
