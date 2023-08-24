@@ -4,10 +4,11 @@
 /* VERSAO TABLET */
 @media screen and (min-width:768px) and (max-width:992px) {
     body {
-        background-image: linear-gradient(to bottom right, #5f2c82,#5F2C82,#9667B5);
+        background-image: linear-gradient(to bottom , #5f2c82,#5F2C82,#9667B5);
     }
     #login {
         width: 90vw;
+        height: 330px;
     }
     #imagem {
         float: left;
@@ -18,15 +19,23 @@
     #formulario {
         float: right;
         width: 70%;
+
+    }
+    #formulario p {
+        font-size: 1em;
+    }
+    form {
+        margin-top: 25px;
     }
 }
 /* VERSAO PC */
 @media screen and (min-width:992px) {
     body {
-        background-image: linear-gradient(to bottom right, #5f2c82,#5F2C82,#9667B5);
+        background-image: linear-gradient(to bottom , #5f2c82,#5F2C82,#9667B5);
     }
     #login {
-        width: 940px;
+        width: 950px;
+        height: 400px;
     }
     #imagem {
         float: right;
@@ -44,5 +53,8 @@
     #formulario > p {
         padding: 10px;
         font-size: 1em;
+    }
+    form {
+        margin-top: 25px;
     }
 }

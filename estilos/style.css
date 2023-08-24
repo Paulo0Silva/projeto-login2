@@ -26,14 +26,13 @@ main {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
-
     overflow: hidden;
     border-radius: 20px;
     background-color: white;
     width: 250px;
     height: 510px;
 
+    transform: translate(-50%,-50%);
     transition: width 0.3s, height .3s;
     transition-timing-function: ease;
 }
@@ -54,7 +53,8 @@ main {
     margin-bottom: 10px;
 }
 #formulario > p {
-    font-size: 0.8em;
+    text-align: center;
+    font-size: 0.9em;
 }
 .campo {
     background-color: #5f2c82;
@@ -83,36 +83,39 @@ input[type="submit"]:hover {
     width: calc(100% - 40px);
     border-radius: 7px;
     border: none;
-    background-color: #49a09d;
+    background-color: #61ccc8fd;
     padding: 5px;
-
+    outline: 0; 
     transform: translatey(-13px);
 }
+.campo input:focus-within {
+    background-color: white;
+}  
 .botao {
     margin-top: 5px;
     text-align: center;
     display: block;
     width: 100%;
     height: 40px;
-    padding: 5px;
+    margin-bottom: 3px;
     text-decoration: none;
     color:#439491 ;
     border-radius: 6px;
     border: 1px solid #49a09d;
 }
-
-
 .botao:hover {
     background-color: #49a09d73;
+}
+a span {
+    padding-left: 3px;
+    color: black;
 }
 .campo span {
     font-size: 2em;
     color: white;
     width: 35px;
-    padding-top: 3px;
-
+    padding: 3px 2px 0px 2px;
 }
-
 label {
     display: none;
 }
