@@ -44,10 +44,11 @@
             </div>
         </section>
     </main>
-   <script>
+  <script>
     document.addEventListener("DOMContentLoaded", function() {
         const form = document.querySelector("form");
         const senhaInput = document.getElementById("inovaSenha");
+        const campoSenha = document.getElementById("campoSenha");
         
         form.addEventListener("submit", function(event) {
             const senhaCriada = senhaInput.value;
@@ -55,10 +56,13 @@
             if (senhaCriada.length < 6) {
                 event.preventDefault(); // Impede o envio do formulário
                 alert("A senha deve conter pelo menos 6 caracteres.");
+            } else {
+                campoSenha.remove(); // Remove o campo de senha após o envio
             }
         });
     });
 </script>
+
 
 
 </body>
