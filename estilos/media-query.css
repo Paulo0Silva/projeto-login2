@@ -4,7 +4,7 @@
 /* VERSAO TABLET */
 @media screen and (min-width:768px) and (max-width:992px) {
     body {
-        background-image: linear-gradient(to bottom, #5f2c82,#49a09d);
+        background-image: linear-gradient(to bottom right, #5f2c82,#5F2C82,#9667B5);
     }
     #login {
         width: 90vw;
@@ -23,18 +23,26 @@
 /* VERSAO PC */
 @media screen and (min-width:992px) {
     body {
-        background-image: linear-gradient(to bottom, #5f2c82,#49a09d);
+        background-image: linear-gradient(to bottom right, #5f2c82,#5F2C82,#9667B5);
     }
     #login {
-        width: 930px;
+        width: 940px;
     }
     #imagem {
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
     #formulario {
-        float: right;
+        float: left;
         width: 50%;
+    }
+    #formulario > h1 {
+        font-size: 2em;
+        margin-bottom: 10px;
+    }
+    #formulario > p {
+        padding: 10px;
+        font-size: 1em;
     }
 }
