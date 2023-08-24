@@ -34,6 +34,8 @@ main {
     width: 250px;
     height: 500px;
 
+    transition: width 0.3s, height .3s;
+    transition-timing-function: ease;
 }
 #imagem {
     display: block;
