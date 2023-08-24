@@ -86,7 +86,7 @@ input[type="submit"]:hover {
     background-color: #61ccc8fd;
     padding: 5px;
     outline: 0; 
-    transform: translatey(-13px);
+    transform: translatey(-12px);
 }
 .campo input:focus-within {
     background-color: white;
